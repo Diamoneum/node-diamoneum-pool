@@ -1,15 +1,15 @@
-![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
+![image](https://github.com/Diamoneum/Resources/blob/main/Images/Diam-Logo.png?raw=true)
 
 #### Master Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/node-turtle-pool.svg?branch=master)](https://travis-ci.org/turtlecoin/node-turtle-pool)
+[![Build Status](https://travis-ci.org/Diamoneum/node-diamoneum-pool.svg?branch=master)](https://travis-ci.org/Diamoneum/node-diamoneum-pool)
 
 #### Development Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/node-turtle-pool.svg?branch=development)](https://travis-ci.org/turtlecoin/node-turtle-pool)
+[![Build Status](https://travis-ci.org/Diamoneum/node-diamoneum-pool.svg?branch=development)](https://travis-ci.org/Diamoneum/node-diamoneum-pool)
 
 
-turtle-pool (for NodeJS LTS)
+diamoneum-pool (for NodeJS LTS)
 ====================
-Formerly known as cryptonote-forknote-pool, forked from Forknote Project.
+Formerly known as cryptonote-forknote-pool, forked from Forknote Project and turtlecoin.
 
 High performance Node.js (with native C addons) mining pool for Cryptonote based coins, created with the Forknote software such as Bytecoin, Dashcoin, etc..
 
@@ -85,7 +85,7 @@ Comes with lightweight example front-end script which uses the pool's AJAX API.
 * [CryptoNote Forum](https://forum.cryptonote.org/)
 * [CryptoNote Universal Pool Forum](https://bitcointalk.org/index.php?topic=705509)
 * [Forknote](https://forknote.net)
-* [TurtleCoin](http://chat.turtlecoin.lol)
+* [Diamoneum](https://discord.gg/YVwYZ6Z)
 
 #### Pools Using This Software
 
@@ -96,8 +96,8 @@ Usage
 ===
 
 #### Requirements
-* Turtlecoind daemon
-* turtle-service
+* Diamoneumd daemon
+* Diamoneum-service
 * [Node.js](http://nodejs.org/) LTS (6,8,10) ([follow these installation instructions](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions))
 * [Redis](http://redis.io/) key-value store v2.6+ ([follow these instructions](http://redis.io/topics/quickstart))
 * libssl required for the node-multi-hashing module
@@ -145,17 +145,17 @@ sudo apt-get install -y nodejs
 
 I have found using a screen session to keep everything running on the server works well.
 
-Grab your most recent TurtleCoin release (https://github.com/turtlecoin/turtlecoin/releases/) then launch your daemon and sync your chain.
+Grab your most recent Diamoneum release (https://github.com/Diamoneum/Diamoneum/releases/) then launch your daemon and sync your chain.
 
-Once your daemon is synced with the network start your turtle-service and redis-server.
+Once your daemon is synced with the network start your Diamoneum-service and redis-server.
 
 #### 1) Downloading & Installing
 
 Clone the repository and run `npm install` for all the dependencies to be installed:
 
 ```bash
-git clone https://github.com/turtlecoin/turtle-pool turtle-pool
-cd turtle-pool
+git clone https://github.com/Diamoneum/node-diamoneum-pool.git
+cd node-diamoneum-pool
 npm install && npm test
 ```
 
@@ -579,6 +579,7 @@ Credits
 * [Tacotime](https://bitcointalk.org/index.php?action=profile;u=19270) - helping with figuring out certain problems and lead the bounty for this project's creation
 * [fancoder](https://github.com/fancoder/) - See his repo for the changes
 * [TurtleCoin](https://github.com/turtlecoin/) - For making this great again
+* [Diamoneum](https://github.com/Diamoneum/) - For adapting to use with Diamoneum
 
 License
 -------
